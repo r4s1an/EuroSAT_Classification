@@ -24,11 +24,11 @@ This was done with training.py. The trained weights are saved as: resnet18_euros
 ```bash
 python train.py
 ```
-**Model:** ResNet18 (pretrained on ImageNet optionally)
-**Optimizer:** Adam (lr=1e-4)
-**Epochs:** 5
-**Batch size:** 32
-**Device:** GPU if available, else CPU
+The trained model had the following properties:
+* **Model:** ResNet18
+* **Optimizer:** Adam (lr=1e-4)
+* **Epochs:** 5
+* **Batch size:** 32
 
 ## Evaluation
 The model evaluation was done with evaluation.py. The scripts provides overall test accuracy, per-class accuracy, confusion matrix, classification report (precision, recall, F1-score), sample predictions with true vs predicted labels. To run the evaluation.py script:
@@ -78,4 +78,5 @@ HerbaceousVegetation       0.98      0.98      0.98       455
 
 ## License notice
 This project is licensed under the MIT License.  
+
 
