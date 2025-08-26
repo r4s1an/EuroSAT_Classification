@@ -1,0 +1,9 @@
+# Python version
+python>=3.13.2
+
+# Core ML libraries
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+numpy==2.3.1
+matplotlib==3.10.0
+scikit-learn==1.6.1

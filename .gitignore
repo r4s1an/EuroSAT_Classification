@@ -1,0 +1,6 @@
+# Ignore dataset folder
+EuroSAT_RGB/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
