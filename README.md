@@ -1,6 +1,4 @@
 # EuroSAT RGB Image Classification with ResNet18
-
-## Overview
 This project demonstrates a deep learning approach for **land use and land cover (LULC) classification** using the **EuroSAT RGB dataset**.  
 A **ResNet18** model is trained with PyTorch to classify Sentinel-2 satellite images into **10 distinct classes**, achieving **over 98% test accuracy**.  
 This project showcases end-to-end ML workflow: data preparation, model training, evaluation, and visualization.
@@ -80,3 +78,4 @@ HerbaceousVegetation       0.98      0.98      0.98       455
 
 ## License notice
 This project is licensed under the MIT License.  
+
